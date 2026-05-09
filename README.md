@@ -1,1 +1,3 @@
-# Calculadora_IMC_simples__atividade
+# Calculadora_IMC
+
+Atividade sendro mc primeiro trimestre
