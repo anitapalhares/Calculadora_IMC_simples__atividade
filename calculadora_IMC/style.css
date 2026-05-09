@@ -1,0 +1,78 @@
+body{
+  background-color: rgb(204, 255, 149);
+}
+main {
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  font-display: swap;
+}
+
+.fonte {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  color: rgb(10, 16, 64);
+  padding: 3px;
+  border-bottom: 20%;
+  border-color: rgb(41, 55, 0);
+  border-radius: 8px;
+  margin-bottom: 5px;
+  height: 20%;
+  width: 150%;
+}
+
+.outputs{
+  color: rgb(0, 26, 86);
+}
+
+.inputs{
+  font-size: large;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 39, 122);
+}
+
+/* Ordenamento de elementos */
+
+#titulo {
+  order: 1;
+}
+#seunome {
+  order: 2;
+}
+#txtnome {
+  order: 3;
+}
+#altura {
+  order: 4;
+}
+#txtaltura {
+  order: 5;
+}
+#peso {
+  order: 6;
+}
+#txtpeso {
+  order: 7;
+}
+#btnAlerta {
+  order: 8;
+  color: rgb(0, 37, 96);
+  background-color: rgb(119, 98, 241);
+  cursor: pointer;
+  transition: all 0.9s ease; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#nome {
+  order: 9;
+}
+#imc {
+  order: 10;
+}
+#status {
+  order: 11;
+}
